@@ -1,0 +1,172 @@
+*{padding: 0; margin: 0;}
+
+.div-header-1{
+    display: grid;
+    
+   
+}
+.baner {
+    background: url(images/banner.jpg)no-repeat 0px 0px;
+    width: 100%;
+    min-height: 600px;
+    display: block;
+    background-size: cover;
+}
+
+.logo{
+    padding: 1em 0 0 3em;
+}
+.baner-nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row;
+   
+
+}
+.baner-nav ul {
+    /* background: url(images/nav.png)no-repeat 0px -10px; */
+    /* width: 450px;
+    min-height: 57px; */
+    width: max-content;
+    height: 40px;
+    background-color:  #ffd61d;
+    display: block;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: -4.3em;
+    margin-right: 8em;
+    margin-left: 25em;
+    
+}
+.baner-nav ul li {
+    display: inline-block;
+    float: left;
+    border-right: 1px solid #b99403;
+}
+.baner-nav ul li:nth-child(3){
+	border-right:none;
+}
+.baner-nav ul li a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 6px 15px 0 3px;
+    display: block;
+}
+.baner-nav ul li a:hover{
+	color:#fff;
+}
+
+.acount{
+    width: 30px;
+
+}
+#out{
+    display:none;
+}
+.baner-nav ul li a span{
+    
+    
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	vertical-align: middle;
+}
+/* .baner-nav ul li a span.li-servise{
+    background-position: -34px 0px;
+}
+.baner-nav ul li a span.li-contact{
+    background-position:-68px -5px;
+} */
+
+.nav-after-baner1{
+    background: url(images/banner1.jpg)no-repeat 0px 0px;
+    width: 100%;
+    min-height: 224px;
+    display: block;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    /* width: 25%; */
+    justify-content: space-around;
+
+}
+.container-icon{
+    width: 25%;
+    text-align: center;
+}
+.container span {
+    font-size: 30px;
+    color: #000;
+    display: block;
+    text-transform: uppercase;
+    
+}
+.main-2 {
+    background: url(images/banner2.jpg)no-repeat 0px 0px;
+    background-size: auto;
+    width: 100%;
+    min-height: 452px;
+    display: block;
+    background-size: cover;
+    padding: 5em 0 4em;
+}
+.main-3{
+    background: url(images/banner3.jpg)no-repeat 0px 0px;
+    background-size: auto; 
+    width: 100%;
+    min-height: 500px;
+    display: block;
+    background-size: cover;
+    padding: 3em 0 5em;
+
+    
+}
+.footer{
+    background: #4c4c4c;
+    padding: 1em 0;
+    box-shadow: 0px 4px 7px 7px #000;
+    display: block;
+   
+}
+.img-m3{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.main-3 h3 {
+    color: #f5c506;
+    font-size: 3.2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0em 0 1em;
+}
+.container-footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.footer-text{
+    
+    float: right;
+    padding: 1.3em 5em;
+    font-size: 1.3em;
+    color: #fff;
+ 
+}
+.footer-text a {
+    text-decoration: none;
+    color: #fff;
+}
+.container-footer img {
+    padding-left: 2em;
+}
+.openReg{
+    position: absolute;
+    z-index: 999;
+}

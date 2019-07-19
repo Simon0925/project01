@@ -1,0 +1,84 @@
+.modal{
+    display:block;
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.8);
+}
+.close-regpage{
+    width: 30px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+.close-regpage:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.foto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 550px;
+	height:  max-content;
+	min-height: 400px;
+	position: relative;
+	border:10px solid black;
+	background: green;
+	border-radius: 30px;
+	flex-direction: column;
+}
+
+h1 {
+	top: -35px;
+	position: relative;
+	text-align: center;
+}
+
+#demo img{
+	width: 350px; 
+	top: -60px;
+	position: relative; 
+	border: 5px solid black;
+	border-radius: 50px;
+}
+
+#demo:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+.button-answer{
+	border-radius: 30px;
+}
+
+.type-answer{
+	border-radius: 30px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~ */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	box-sizing: border-box;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+.wrapper{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

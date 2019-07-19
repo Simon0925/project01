@@ -1,0 +1,132 @@
+.modal{
+    display:block;
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.8);
+}
+.close-regpage{
+    width: 30px;
+    position: absolute;
+    top: 23px;
+    right: 12px;
+}
+.close-regpage:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.form-registration{
+    width: 450px;
+    margin-bottom: 10px;
+    background: url(images/banner2.jpg);
+    border:3px solid #b99403;
+    border-radius: 20px;
+    padding: 10px;
+    position:fixed;
+    top:0;
+    left:32%;
+}
+.reghead{
+    background:  #ec9e03;
+    margin-top: 10px;
+    color:#ffffff;
+    font-weight: 0;
+    border-radius: 20px;
+
+}
+.error-txt {
+     background-color: red;
+     
+}
+.sign-in{
+    display: flex;
+    justify-content: center;
+}
+.reghead h1{
+    margin: 0 auto;
+}
+.form-control{
+    width: 95%;
+    margin: 5px 0 10px;
+    border: 1px solid #ec9e03;
+    border-radius: 7px;
+    outline:none;
+    padding: 5px 10px;
+}
+.control-label::before{
+    content: "*";
+    color:#4c4c4c;
+}
+button{
+    border-radius: 5px;
+    background:#ec9e03;
+    border: 0;
+    color: #ffffff;
+    padding: 5px 15px;
+    outline:none;
+    transition: all 0.8s ease
+}
+button:hover{
+    cursor: pointer;
+    background:#4c4c4c;
+    transform: scale(1.2)
+}
+
+#avatarka{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+   
+}
+
+#avatarka + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #ec9e03;
+    padding: 5px 10px 5px 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.8s all ease;
+}
+#avatarka + label::before{
+    background: url(images/img.png)  no-repeat center;
+   background-size: 20px 20px;
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   content: "";
+   padding: 5px 10px 5px 10px;
+   
+}
+#avatarka:focus + label, #avatarka + label:hover{
+background-color:#4c4c4c;
+}
+
+#avatarka + label {
+    cursor: pointer;
+}
+.fist-avatar{
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px 0 10px 10em;
+    border: 3px solid #b99403;
+    border-radius: 50%;
+}
+.registration-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding-left: 1.5em;
+    margin-left: 12.7em;
+}
