@@ -30,7 +30,7 @@ console.log(regBtn)
 regBtn.onclick = function (event) {
   let regpage = document.body.appendChild(document.createElement("register-page"));
   regpage.setAttribute("markup", "chanks/Registration.html");
-  regpage.setAttribute("css", ".css/Registration.css");
+  regpage.setAttribute("css", "css/Registration.css");
   
 }
 
@@ -72,7 +72,7 @@ console.log(signIn)
   let regpage2 = document.createElement("signin-page");
 
   regpage2.setAttribute("markup", "chanks/Sign_in.html");
-  regpage2.setAttribute("css", ".css/Sign_in.css");
+  regpage2.setAttribute("css", "css/Sign_in.css");
   document.body.appendChild(regpage2)
   
 }
