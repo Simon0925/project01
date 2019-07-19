@@ -1,5 +1,5 @@
-import(`../js/sing_in.js`)
-import(`../js/rebus.js`)
+import(`js/sing_in.js`)
+import(`js/rebus.js`)
 
 function getCookie() {
   let id
