@@ -111,8 +111,8 @@ this.singInBotton.onclick = function (event) {
 this.openRegisterPage.onclick = function (event) {
            
   let regpage = document.body.appendChild(document.createElement("register-page"));
-  regpage.setAttribute("markup", "../chanks/Registration.html");
-  regpage.setAttribute("css", "../css/Registration.css");
+  regpage.setAttribute("markup", "chanks/Registration.html");
+  regpage.setAttribute("css", "css/Registration.css");
   
      
     this.style.display = "none";
