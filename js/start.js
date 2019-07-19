@@ -1,4 +1,4 @@
-import(`js/sing_in.js`)
+import(`js/singlin.js`)
 import(`js/rebus.js`)
 
 function getCookie() {
@@ -71,8 +71,8 @@ console.log(signIn)
  signIn.onclick = function (event) {
   let regpage2 = document.createElement("signin-page");
 
-  regpage2.setAttribute("markup", "chanks/Sign_in.html");
-  regpage2.setAttribute("css", "css/Sign_in.css");
+  regpage2.setAttribute("markup", "chanks/Signlin.html");
+  regpage2.setAttribute("css", "css/Signlin.css");
   document.body.appendChild(regpage2)
   
 }
